@@ -1,0 +1,455 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.page1{
+    height: 100vh;
+    width: 100%;
+}
+
+
+.navbar{
+    height: 15%;
+    width: 100%;
+}
+
+.nav{
+    height: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.nav a{
+    color: black;
+    text-decoration: none;
+    
+}
+
+.nav li{
+    margin: 10px;
+}
+
+
+.nav button{
+    margin-right: 45px;
+    background-color: orangered;
+    border: none;
+    border-radius: 30px;
+    height: 55px;
+    width: 7%;
+    color: white;
+}
+
+.image{
+    height: 85%;
+    width: 100%;
+    /* background-color: aqua; */
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(/images/banner\ \(1\).webp);
+    background-size: cover;
+    /* text-align: center; */
+}
+
+.image h1{
+    font-size: 50px;
+}
+
+.image p{
+    font-size: 20px;
+}
+
+.image button{
+    background-color: red;
+    color: white;
+    height: 10%;
+    width: 14%;
+    border-radius: 30px;
+    border: none;
+    /* font-weight: 600; */
+    font-size: 20px;
+}
+
+.page2{
+    height: 100vh;
+    width: 100%;
+}
+
+.page2 h1{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.page2 p{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+
+  .images{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly;
+  }
+
+  .box_over img{
+   height: 30%;
+   width: 350px;
+   border-radius: 10px;
+   margin-left: 10%;
+  }
+
+  .box_over h1{
+    font-size: 35px;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+    .box_over p{
+        text-align: start;
+    }
+
+  
+  .Variety img{
+    height: 30%;
+    width: 350px;
+    border-radius: 10px;
+    
+  }
+
+  .Variety h1{
+    font-size: 35px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Variety p{
+    text-align: start;
+  }
+
+  .Deliciousness img{
+    height: 30%;
+    width: 350px;
+    justify-content: space-evenly;
+    border-radius: 10px;
+  }
+ .Deliciousness h1{
+    font-size: 35px;
+    text-align: start;
+ }
+
+
+ .page3{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+ }
+
+ .left{
+    height: 100%;
+    width: 50%;
+    background-image: url(/images/Family_cooking.webp);
+    background-size: cover;
+    display: flex;
+ }
+
+ .right{
+    height: 100%;
+    width: 50%;
+    background-color: pink;
+}
+
+.right h1{
+    font-size: 40px;
+    margin-left: 60px;
+    margin-top: 80px;
+    color: red;
+}
+
+.right p{
+    font-size: 20px; 
+    margin-left: 60px;
+}
+
+.right h5{
+    font-size: 15px;
+    margin-left: 60px;
+}
+
+.right button{
+    background-color: red;
+    color: white;
+    height: 10%;
+    width: 20%;
+    border: none;
+    border-radius: 20px;
+    margin-left: 60px;
+    font-weight: 600;
+}
+ 
+
+.page4{
+    height: 100vh;
+    width: 100%;
+}
+
+.page4 h1{
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page4 p{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.pictures{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    
+    border-radius: 20%;
+    justify-content: space-evenly;
+}
+
+.btn{
+ height: 10%;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 30px; 
+}
+
+.btn button{
+    background-color: red;
+    color: white;
+    height: 60px;
+    width: 150px;
+    border: none;
+    border-radius: 20px;
+    font-weight: 600;
+    display: flex;  
+    justify-content: center;
+    align-items: center; 
+}
+
+
+.page5{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(253, 253, 253);
+}
+
+.page5 h1{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.IMGs{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    border-radius: 20%;
+    justify-content: space-evenly;
+    
+}
+
+.paragraph{
+    height: 30%;
+    width: 100%;
+    font-size: 25px;
+    justify-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40%;
+}
+
+.page6{
+    height: 100vh;
+    width: 100%;
+    background-image: url(/images/subscribe.webp);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inside{
+    height: 40%;
+    width: 60%;
+    background-color: white;
+}
+
+.page6 h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.page6 p{
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.page6 h5{
+    justify-content: center;
+    align-items: center;
+    margin-left: 25%;
+    margin-top: 10px;
+}
+
+.input{
+    height: 20px;
+    width: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    /* background-color: orangered; */
+    justify-content: center;
+    align-items: center;
+
+}
+
+.button input{
+    height: 50%;
+    width: 35%;
+}
+
+.button button{
+    height: 57%;
+    width: 15%;
+    border: none;
+    background-color: red;
+    border-radius: 0 5px 5px 0;
+    color: white;
+    font-weight: bold;
+}
+
+.addition{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 7%;
+}
+
+
+
+.page7{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.title{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: red;
+    margin-top: 10px;
+}
+
+.subtitles{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 10%;
+}
+
+.div1 h2{
+    font-size: 20px;
+}
+
+.div2 h3{
+    font-size: 20px;
+}
+
+.div3 h4{
+    font-size: 20px;
+}
+
+.div4 h5{
+   font-size: 20px; 
+
+}
+.div4 img{
+    height: 29%;
+    width: 35%;
+    border-radius: 5px;
+}
+
+
+.div5 h6{
+    font-size: 20px;
+
+}
+
+.div5 p{
+    font-size: 19px;
+}
+
+
+.subtitle{
+    height: 30vh;
+    width: 100%;
+}
+
+.subtitle input{
+height: 20px;
+width: 20%;
+}
+
+.subtitle button{
+    height: 25px;
+    width: 110px;
+    border: none;
+    background-color: red;
+    border-radius: 0 5px 5px 0;
+    color: white;
+    font-weight: 600; 
+}
+
+.sub{
+height: 35vh;
+width: 100%;
+}
+
+.sub p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
